@@ -1,0 +1,25 @@
+{
+  "name": "go-print",
+  "main": "./lib/go-print",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+    "golang",
+    "go",
+    "fmt.Printf",
+    "fmt.Println",
+    "debug",
+    "clean fmt.Printf",
+    "clean logging"
+  ],
+  "activationCommands": {
+    "atom-workspace": "go-print:add-println"
+  },
+  "repository": "https://github.com/atom/go-print",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

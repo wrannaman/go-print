@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "go-print - add println",
+        "command": "go-print:add-println"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "go-print",
+          "submenu": [
+            {
+              "label": "fmt.Println",
+              "command": "add-println"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
