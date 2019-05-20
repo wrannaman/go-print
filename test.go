@@ -1,6 +1,7 @@
 package test
 
 import (
+	"fmt"
 	"os"
 	"strings"
 )
@@ -14,4 +15,5 @@ type Configuration struct {
 
 func main() {
 	env := strings.ToLower(os.Getenv("ENV"))
+	fmt.Println("env %v", env)
 }

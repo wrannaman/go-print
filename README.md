@@ -1,5 +1,25 @@
-# go-print package
+# Go Print
 
-A short description of your package.
+Atom extension so you can stop typing
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+```go
+fmt.Println("VAR %v ", VAR)
+```
+
+## Install
+
+```sh
+apm install go-print
+```
+
+## How to use
+
+Simply highlight your text and
+
+```sh
+ctrl+alt+l
+```
+
+## Demo
+
+![Demo](./demo.gif)
