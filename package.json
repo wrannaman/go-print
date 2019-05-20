@@ -1,7 +1,7 @@
 {
   "name": "go-print",
   "main": "./lib/go-print",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Atom package so you can stop typing fmt.Printf",
   "keywords": [
     "golang",
