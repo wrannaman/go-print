@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "go-print - add println",
-        "command": "go-print:add-println"
+        "label": "go-print - add printf",
+        "command": "go-print:add-printf"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "go-print",
           "submenu": [
             {
-              "label": "fmt.Println",
-              "command": "add-println"
+              "label": "fmt.Printf",
+              "command": "add-printf"
             }
           ]
         }

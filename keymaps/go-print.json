@@ -1,6 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-l": "go-print:add-println",
-    "ctrl-alt-f": "go-print:add-printf"
+    "ctrl-alt-l": "go-print:add-printf"
   }
 }
